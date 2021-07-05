@@ -1,0 +1,50 @@
+#carousel {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    padding: 1rem 10rem 2rem 10rem;
+}
+
+#carousel h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #124228;
+    font-size: 30pt;
+    text-align: center;
+}
+.carousel-container{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+.carousel-indicators .active{
+    background-color: #124228;
+}
+.carousel{
+    width: 700px;
+    height: 520px;
+}
+.carousel-inner {
+    width: 700px;
+    height:auto;
+}
+
+@media (max-width:600px){
+    .carousel, .carousel-inner{
+        width: 400px;
+        height: auto;
+    }
+    .carousel {
+        margin-left: -58px;
+        margin-top: -40px;
+    }
+    .carousel-container{
+        height: 15rem;
+    }
+    #carousel h2{
+        width: 220px;
+        margin-left: -4rem;
+    }
+}

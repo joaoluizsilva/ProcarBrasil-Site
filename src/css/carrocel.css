@@ -1,0 +1,44 @@
+.box-carrocel{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.45rem;
+}
+.img-carrocel{
+    padding: 2rem;
+    width: 350px;
+    height: 350px;
+}
+.carousel-indicators{
+    /* background-color: aqua !important; */
+}
+.carousel-indicators li{
+    background-color: #124228 !important;
+}
+.carrocel-mobile{
+    display:none; /* Apagando a Div no Descktop */
+}
+@media only screen and (max-width: 600px) {
+    .carrocel-descktop {
+      display: none; /* Apagando a Div no Mobile */
+    }
+    .carrocel-mobile{
+        display:block;
+    }
+    .carousel-item{
+        height: 350px !important;
+
+    }
+    .box-img{
+        width:250px;
+        height: 250px;
+    }
+    .img-carrocel{
+        padding:0px;
+        width:250px;
+        height: 250px;
+    }
+
+}
+/* #eec630 */

@@ -1,0 +1,135 @@
+#form-simulacao{
+    
+}
+
+.image-simulacao {
+    width: 40%;
+    margin-bottom: 45px;
+    margin-bottom: 20px;
+}
+#img{
+    display:flex;
+    justify-content:center;
+}
+
+.one-field{
+    padding:22px; 
+    width: 500px;
+}
+
+.one-field .form-control .one-input{
+    width: 460px;
+}
+
+.two-field {
+    display: flex; 
+    width: 500px; 
+    justify-content: space-evenly ;
+}
+
+.form-second-section{
+    display: flex;
+    width: 500px;
+    padding: 22px;
+}
+.input-second-form{
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 500px; 
+    flex-direction: column;
+}
+.input-check-form{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    align-items: center;
+    /* margin-top: 22px; */
+    flex-direction: column;
+}
+.input-check-form .inputs{
+    width: 200px;
+    margin-top: 15px;
+}
+
+.botao-orcamento{
+    margin-top: 25px;
+    width: 300px;
+    height: 64px;
+    background-color: #FAC506;
+    border: none;
+    border-radius: 8px;
+    color: #00613d;  
+    font-family: 'Roboto'; 
+    font-weight: bold;
+}
+.botao-orcamento:hover{
+    background-color:#c59f17; 
+    transition: 0.3s;
+}
+
+@media(max-width: 600px){
+    .simulacao-form,
+    .simulacao-image{
+        display: none !important;
+    }
+    .img img {
+        width: 100%;
+        height: 50px;
+    }
+    #img {
+        width: 100% ;
+        height: auto;
+        justify-content: center;
+        display:flex !important;
+        position: relative !important;        
+    }
+    .image-simulacao{
+        width: 70%;
+        margin:0px;
+        display:block;
+        align-items: center !important;
+        text-align: center !important;
+        margin-top: -100px;
+        margin-bottom: 25px;  
+    }
+    .botao-mobile{
+        width: 100%;
+        height: auto;
+        display: flex !important;
+        justify-content:center;
+
+    }
+    .botao-orcamento{
+        margin-top: 25px;
+        width: 300px;
+        height: 64px;
+        background-color: #FAC506;
+        border: none;
+        border-radius: 8px;
+        color: #00613d;  
+        font-family: 'Roboto'; 
+        font-weight: bold;
+
+    }
+    .botao-orcamento:hover{
+        background-color:#c59f17; 
+        transition: 0.3s;
+    }
+ 
+
+}
+
+/* media responsivo */
+@media (min-width: 600px){
+    
+    #img{
+        display:flex;
+    }
+    #form-bootstrap{
+        display: none !important;
+    }
+    input, boplaceholder ,button {
+        /* font-family: Roboto; */
+    }
+    
+}

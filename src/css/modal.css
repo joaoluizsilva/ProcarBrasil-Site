@@ -1,0 +1,126 @@
+.modal-header{
+    background-color: #ffffff !important;
+    margin-bottom: -1rem;
+    border-bottom: 0px !important;
+    border-radius: 20px 20px 20px 20px !important;
+    width: 600px !important;
+}
+.modal-cabecalho{
+    width: 100%;
+    height:auto;
+    display: flex !important; 
+    justify-content: center !important;
+    align-items: center;
+    text-align: center !important;
+}
+.modal-cabecalho p{
+    font-family: Roboto;
+    font-size: 20pt;
+    color: #fbc609;
+    text-align: center !important;
+}
+.modal-cabecalho strong {
+    font-weight: 900;
+}
+.modal-content{
+    background-color: transparent !important;
+    border: none !important;
+    margin-top: 150px !important;
+}
+
+.modal-body{
+    width: 650px !important;
+    background-color: #ffffff !important;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.modal-conteudo{
+    display: flex;
+    justify-content: center;
+}
+.bloco-modal-1{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+    background: rgb(0,116,48);
+    background: linear-gradient(135deg, rgba(0,116,48,1) 0%, rgba(0,96,60,1) 100%);
+}
+.bloco-modal-1 img {
+    width: auto;
+    height: 400px;
+    
+}
+.bloco-modal-2{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.btn-fechar{
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.txt-modal-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    /* width: 80%;
+    height: auto;
+    margin-top: 6.75rem;
+    margin-left: 32px; */
+    text-align: center;
+}
+.txt-modal-1 p {
+    color:#00613d;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 18pt;
+}
+.txt-modal-2{
+    width: 80%;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 32px;
+    
+}
+.txt-modal-2 p{
+    font-family: Roboto;
+    font-weight: 400;
+}
+.modal-botao {
+    padding-left: 26px;
+}
+.btn-modal {
+    background-color: #FAC506;
+    color: #00613d;
+    font-family: Roboto;
+    font-weight: 900;
+    border: solid transparent;
+    border-radius: 10px;
+    padding: 8px 25% 8px 25%;
+}
+
+
+.pop-numero{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    font-size: 35pt;
+    color: transparent;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #fbc609; /* cor da borda */
+}
+
+@media (max-width: 600px){
+    .pop-bloco-txt p {
+        font-size: 14pt !important;
+    }
+    .pop-numero {
+        font-size: 22pt !important;
+    }
+
+}

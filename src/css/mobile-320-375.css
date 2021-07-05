@@ -1,0 +1,90 @@
+@media only screen and (max-width: 320px) {
+  .navbar {
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-right: 0px;
+    padding-bottom: 0.3rem;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  .navbar-toggler {
+    padding: 2px 2px 2px 2px;
+    margin-right: 8px;
+  }
+  .navbar-brand img {
+    /* margin-left: -8px; */
+  }
+  .divisao-2 {
+    margin-top: 6rem;
+  }
+  #grupo-procar {
+    margin-top: 0.75rem;
+  }
+  #banner {
+    margin-top: 2rem !important;
+    height: 21.4rem !important;
+  }
+  footer {
+    padding-bottom: 1rem;
+  }
+}
+/* FIM */
+@media only screen and (max-width: 357px) {
+  .navbar {
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-right: 0px;
+    padding-bottom: 0.3rem;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+
+  #banner {
+    margin-top: 0rem;
+    height: 23.8rem;
+  }
+  footer {
+    padding-bottom: 1rem;
+  }
+}
+/* Fim */
+@media only screen and (max-width: 360px) {
+  #banner{
+    height: auto;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .divisao-2 {
+    margin:0px;
+    padding: 0px;
+  }
+  #grupo-procar{
+    margin-top: -4rem !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .navbar {
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-right: 0px;
+    padding-bottom: 0.3rem;
+    padding-left: -10px !important;
+    margin-top: 2rem;
+  }
+  .navbar-toggler {
+    padding: 2px 2px 2px 2px;
+    margin-right: 8px;
+  }
+  .navbar-brand img {
+    margin-left: -8px;
+  }
+  .divisao-2 {
+    margin-top: 6rem;
+  }
+  #grupo-procar {
+    margin-top: 0.75rem;
+  }
+  footer {
+    padding-bottom: 1rem;
+  }
+}

@@ -1,0 +1,51 @@
+header {
+  width: 100% !important;
+  height: 140px !important;
+  padding: 2px 0px 2px 0px !important;
+  margin: 0px !important;
+  background-color: #215b3c;
+  padding-top: 15px !important;
+  padding-bottom: 25px !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+#barra-navegacao {
+  width: 100%;
+  height: 100px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+.nav-desktop {
+  width: 100%;
+}
+.barra-col-1 {
+  width: 20%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.barra-col-2 {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo-procar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo-procar img {
+  margin-top: 10px;
+  width: auto;
+  height: 70px;
+}

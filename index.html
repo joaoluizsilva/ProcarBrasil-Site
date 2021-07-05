@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Icone do Topo da Janela-->
+    <link rel="shortcut icon" href="src/imagens/procarbrasil.png">
+    <title>Procar Brasil</title>
+    <link rel="shortcut icon" href="./src/images/MT3.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/nav-mobile.css">
+    <link rel="stylesheet" href="src/css/style2.css">
+    <link rel="stylesheet" href="./src/css/form-cotacao.css">
+    <link rel="stylesheet" href="./src/css/modal.css">
+    <link rel="stylesheet" href="./src/css/modal-mobile.css">
+    <link rel="stylesheet" href="src/css/simulacao-form2.css">
+    <link rel="stylesheet" href="./src/css/barra-navegacao.css">
+    <!-- <link rel="stylesheet" href="./src/css/mobile-320-375.css"> -->
+    <link rel="stylesheet" href="./src/css/mobile600.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189366403-1">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-189366403-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Ads: 454142511 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-454142511"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-454142511');
+    </script>
+    <!-- Event snippet for Website traffic conversion page -->
+    <script>
+        gtag('event', 'conversion', {'send_to': 'AW-454142511/U9rTCMrjkvYBEK_UxtgB'});
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+        {n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)
+        }
+        (window,document,'script','https://connect.facebook.net/en_US/fbevents.js'); 
+        fbq('init', '896185760954506');
+        fbq('track', 'PageView');
+        fbq('track','COMPLETE_REGISTRATION');
+    </script>
+    <noscript> 
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=896185760954506&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->    
+    
+</head>
+
+<body>
+    <div class="information">
+        <div class="info">
+            <span>SOCORRO 24H</span>
+            <span class="number ml-1">0800 082 9484</span>
+        </div>    
+    </div>
+    <div class="barra-social mobile-apaga" id="barra-social">
+        <div class="barra-social-ico">
+            <a href="https://www.facebook.com/procardobrasil/"><img src="./src/imagens/Facebookicon.png" alt="Facebook da Procar Brasil"></a>
+        </div>
+        <div class="barra-social-ico">
+            <a href="https://www.instagram.com/procardobrasil/"><img src="./src/imagens/Instagramicon.png" alt="Instagram da Procar Brasil"></a>
+        </div>
+        <div class="barra-social-ico">
+            <a href="https://www.linkedin.com/company/procar-do-brasil/about/"><img src="./src/imagens/Linkedinicon.png" alt="Linkedin da Procar Brasil"></a>
+        </div>
+    </div>
+    <header>
+        <div class="nav-desktop mobile-apaga">
+            <div id="barra-navegacao">
+            <div class="barra-col-1">
+                <div class="logo-procar" href="index.html">
+                    <img src="./src/imagens/Logo-procar.png" alt="Procar Brasil">
+                </div>
+            </div>
+            <div class="barra-col-2">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-procar">
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#nav-procar" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                                   <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                 </svg>
+                           </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nav-procar">
+                        <div class="menu-nav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-link hover-linha"><a href="">INÍCIO</a></li>
+                                <li class="nav-link dropdown mr-3">
+                                   <a class="nav-link dropdown-toggle hover-linha" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       FILIAIS
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item" href="./arapiraca.html">ARAPIRACA</a>
+                                       <a class="dropdown-item" href="./bahia.html">BAHIA</a>
+                                       <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
+                                       <a class="dropdown-item" href="#">RIO GRANDE DO NORTE</a>
+                                       <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                       <a class="dropdown-item" href="recife.html">RECIFE</a>
+                                   </div>
+                               </li>
+                                <li class="nav-link hover-linha"><a href="#beneficios"> VANTAGENS</a></li>
+                                <li class="nav-link hover-linha"><a href="#aplicativo"> APLICATIVO</a></li>
+                                <li class="nav-link hover-linha"><a href="quem-somos.html"> QUEM SOMOS</a></li>
+                                <li class="nav-link">
+                                    <a href="./2via/index.php"><button class="btn btn-success btn-descktop"> 2 VIA DE BOLETO </button></a>
+                                </li>
+                                <li class="nav-link">
+                                    <a href="https://api.whatsapp.com/send?phone=5582981594877"><button class="btn btn-warning btn-descktop"> SEU VEÍCULO BATEU? CLIQUE AQUI </button></a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                   </nav>
+            </div>
+            </div>
+        </div>
+
+        <div id="nav-mobile">
+            <nav class="navbar navbar-expand-lg navbar-light bg-nav-mobile ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./src/imagens/logo-procar-png.png" alt="Procar Brasil">
+                </a>
+                <div class="btn-reboque">
+                    <a href="https://api.whatsapp.com/send?phone=5582981594877"><button class="btn btn-warning">SOLICITAR REBOQUE</button></a>
+                </div>
+                <div class="btn-2via">
+                    <a href="https://www.procardobrasil.com.br/2via/index.php"><button class="btn btn-success">2º VIA BOLETO</button></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">INÍCIO</li>
+                         <!-- <li class="nav-item">FILIAIS</li> -->
+                         <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle drop-nav-top" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                FILIAIS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./arapiraca.html">ARAPIRACA</a>
+                                <!-- <a class="dropdown-item" href="./pernambuco.html">PERNAMBUCO</a> -->
+                                <a class="dropdown-item" href="./bahia.html">BAHIA</a>
+                                <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
+                                <a class="dropdown-item" href="#">RIO GRANDE DO NORTE</a>
+                                <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                            </div>
+                        </li>
+                         <li class="nav-item">VANTAGENS</li>
+                         <li class="nav-item">APLICATIVO</li>
+                         <!-- <li class="nav-item"><a href="quem-somos.html">QUEM SOMOS</a> </li> -->
+                  </ul>
+                  <div class="barra-social-mobile">
+                    <div class="barra-social-ico">
+                        <a href="https://www.facebook.com/procardobrasil/"><img src="./src/imagens/Facebookicon.png" alt="Facebook da Procar Brasil"></a>
+                    </div>
+                    <div class="barra-social-ico">
+                        <a href="https://www.instagram.com/procardobrasil/"><img src="./src/imagens/Instagramicon.png" alt="Instagram da Procar Brasil"></a>
+                    </div>
+                    <div class="barra-social-ico">
+                        <a href="https://www.linkedin.com/company/procar-do-brasil/about/"><img src="./src/imagens/Linkedinicon.png" alt="Linkedin da Procar Brasil"></a>
+                    </div>
+                
+                </div>
+                </div>
+              </nav>
+        </div>   
+    </header>
+    <section id="banner">
+        <div class="divisao-1">
+            <a href="https://www.instagram.com/p/CJoxSWiL1_l/?utm_medium=copy_link"><img src="./src/imagens/banner-principal-jpeg.jpg" alt="Banner Procar Brasil"></a>
+        </div>
+        <div class="divisao-2">
+            <a href="https://www.instagram.com/p/CJoxSWiL1_l/?utm_medium=copy_link"><img src="./src/imagens/banner-mobile.jpg" alt="Banner Procar Brasil"></a>
+        </div>
+    </section>
+    <section id="grupo-procar">
+        <div class="grupo-procar-div-1">
+            <a href="http://procarmonitoramento.com.br/"><img src="./src/imagens/Procar-monitoramento.svg" alt="Procar Monitoramento"></a>
+        </div>
+        <div class="grupo-procar-div-2">
+            <img src="./src/imagens/Centro-automotivo.svg" alt="Centro Automotivo">
+        </div>
+        <div class="grupo-procar-div-3">
+            <img src="./src/imagens/Assistencia-24hrs.png" alt="Assistência 24hrs">
+        </div>
+        <div class="grupo-procar-div-4">
+            <a href="https://www.procardobrasil.com.br/cashback"><img src="./src/imagens/cashback-logo.png" alt="Cashback Procar"></a>
+        </div>
+    </section>
+    <section id="formulario">
+        <div class="simulacao">
+            <div class="simulacao-form" >
+                <form  style="margin:10px;" id="form-simulacao" action="envio.php" method="POST" >
+                    <div id="img">
+                        <img class="image-simulacao" src="./src/imagens/procar-simulacao.png" alt="Procar do Brasil Simulação">
+                    </div>
+                    <div class="formulario-promocao">
+                       <!-- <div class="txt-promocao">
+                        <h2> Preenha e ganhe 10% de CASHBACK</h2> 
+                       </div>  -->
+                  </div>
+                    <div class="one-field">
+                        <input class="form-control one-input" type="text" placeholder="Nome" id="nome" name="nome" required>
+                    </div>
+                    <div class="two-field">
+                        <input class="form-control" type="text" placeholder="Telefone" id="telefone" name="telefone" style="width: 230px;" required>
+                        <input class="form-control" type="text" placeholder="Estado" id="estado" name="estado" style="width: 200px;" required>
+                    </div>
+                    <div class="one-field">
+                        <input class="form-control one-input" type="email" placeholder="E-mail" id="email" name="email" required>
+                    </div>
+                    <div class="form-second-section">
+                        <div class="input-second-form" >
+                            <input class="form-control" type="text" placeholder="Veículo" id="veiculo" name="veiculo" style="width: 230px;" required>
+                            <input class="form-control" type="text" placeholder="Placa" id="placa" name="placa" style="width: 230px;margin-top: 22px;" required>
+                            <input class="form-control" type="text" placeholder="Ano" id="ano" name="ano" style="width: 230px; margin-top: 22px;" required>
+                        </div>
+                        <div class="input-check-form">
+                            <div class="row inputs">
+                                <div class="col-2"><input type="checkbox" id="motorista-de-app" name="moto_app" value="Sim"></div>
+                                <div class="col-10"><span style="color: white; font-family: 'Roboto'">Seu veículo roda como taxi ou aplicativo?</span></div>
+                            </div>
+                            <div class="row inputs">
+                                <div class="col-2"><input type="checkbox" id="habilitacao" name="habilitacao" value="Sim"></div>
+                                <div class="col-10"><span style="color: white; font-family: 'Roboto'">Você possui Habilitação?</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button onclick="validar()" class="botao-orcamento" >SOLICITAR ORÇAMENTO</button> -->
+                    <button type="submit" onclick="validar()" class="botao-orcamento" >SOLICITAR ORÇAMENTO</button>
+                </form>
+                <!-- <button onclick="enviar()">Enviar</button> -->
+            
+            </div>
+            <div class="simulacao-image">
+               <img class="img-obejt" src="./src/imagens/form-img.jpg" alt="Procar Brasil">
+            </div>
+        </div>
+    </section>
+    <section section id="form-mobile">
+        <!-- form-bootstrap -->
+        <form id="form-bootstrap" action="envio_mobile.php" method="POST">
+            <div id="img">
+                <img class="image-simulacao" src="./src/imagens/procar-simulacao.png">
+            </div>
+                     <!-- <div class="formulario-promocao">
+                       <div class="txt-promocao">
+                        <h2> Preenha e ganhe 10% de CASHBACK</h2> 
+                       </div> 
+                  </div> -->
+            <div class="form-group">
+              <input type="text" class="form-control" id="f2_nome" name="nome" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="f2_telefone" name="telefone" placeholder="Telefone" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="f2_estado" name="estado" placeholder="Estado" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="f2_email" name="email" placeholder="E-mail" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="f2_veiculo" name="veiculo" placeholder="Veículo" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="f2_ano"  name="ano" placeholder="Ano" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="f2_placa" name="placa" placeholder="Placa" required>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="f2_moto_app" id="f2_motorista-de-app" value="Sim" required>
+                <label class="form-check-label" for="defaultCheck1" style="color: white; font-family: 'Roboto'" >
+                    Seu veículo roda como taxi ou aplicativo?
+                </label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="f2_habilitacao"  id="f2_habilitacao" value="Sim" required>
+                <label class="form-check-label" style="color: white; font-family: 'Roboto'" >
+                    Você possui Habilitação?
+                </label>
+            </div>
+            <div class="botao-mobile">
+                <button onclick="validar2()" id="btn-form" class="botao-orcamento" >SOLICITAR ORÇAMENTO</button>
+            </div>
+          </form>
+        <!-- form-bootstrap -->
+    </section>
+    <section id="beneficios">
+        <div class="beneficios">
+            <div class="beneficios-titulo">
+                <h1>Benefícios</h1>
+                <h4>A proteção mais rápida e segura para seu veículo</h4>
+            </div>
+            <div class="bloco-beneficios-1">
+                <div class="card-beneficios">
+                    <div class="card-beneficios-cabecalho">
+                        <h5>Proteção veicular </h5>
+                    </div>
+                    <img src="./src/imagens/icone1.svg" alt="">
+                    <div class="beneficios-bloco-rodape">
+                        <p> A proteção mais completa do <br> Brasil.</p>
+                    </div>
+                </div>
+                <div class="card-beneficios">
+                    <div class="card-beneficios-cabecalho">
+                        <h5>Assistência e reboque <br> 24 horas </h5>
+                    </div>
+                    <img src="./src/imagens/icone2.svg" alt="">
+                    <div class="beneficios-bloco-rodape">
+                        <p>Seu carro quebrou? Nossa equipe <br> de reboque está a sua disposição.</p>
+                    </div>
+                </div>
+                <div class="card-beneficios">
+                    <div class="card-beneficios-cabecalho">
+                        <h5>Carro reserva </h5>
+                    </div>
+                    <img src="./src/imagens/icone3.svg" alt="">
+                    <div class="beneficios-bloco-rodape">
+                        Em caso de imprevistos conte <br> com um carro reserva.
+                    </div>
+                </div>
+            </div>
+            <div class="bloco-beneficios-2">
+                <div class="card-beneficios">
+                    <div class="card-beneficios-cabecalho">
+                        <h5>Proteção contra <br> colisões</h5>
+                    </div>
+                    <img src="./src/imagens/icone5.svg" alt="">
+                    <div class="beneficios-bloco-rodape">
+                        Esteja protegido em caso de danos por terceiros.
+                    </div>
+                </div>
+                <div class="card-beneficios">
+                    <div class="card-beneficios-cabecalho">
+                        <h5>Cobertura em caso <br> de furtos ou roubos </h5>
+                    </div>
+                    <img src="./src/imagens/icone4.svg" alt="">
+                    <div class="beneficios-bloco-rodape">
+                        Proteção rápida e eficaz para motos, carros e caminhões.
+                    </div>
+                </div>
+                <div class="card-beneficios">
+                    <div class="card-beneficios-cabecalho">
+                        <h5>Cobertura contra <br> desastres naturais </h5>
+                    </div>
+                    <img src="./src/imagens/icone6.svg" alt="">
+                    <div class="beneficios-bloco-rodape">
+                        Fique seguro em caso de enchentes, <br> incêndios e muitos outros desastres naturais.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim dos Beneficios -->
+    <section id="planos">
+        <div class="planos-background">
+            <div class="plano-conteudo">
+                <div class="plano-texto">
+                    <img src="./src/imagens/Texto-uber-e-taxi.svg" alt="Plano Uber e 99 Procar Brasil">
+                </div>
+                <div class="plano-saiba-mais">
+                    <a href="#"><button class="btn btn-warning">Saiba mais</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim de planos -->
+  <section id="prova-social mobile-apaga">
+    <div class="proca-social-titulo">
+        <h1>Quem conhece aprova!</h1>
+        <h4>Confira alguns casos de associados que acionaram a Procar Brasil e tiveram seus veículos reparados.</h4>
+    </div>
+    <div class="carrocel-descktop">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+                <li data-target="#carouselId" data-slide-to="3"></li>
+                <li data-target="#carouselId" data-slide-to="4"></li>
+                <li data-target="#carouselId" data-slide-to="5"></li>
+                <li data-target="#carouselId" data-slide-to="6"></li>
+                <li data-target="#carouselId" data-slide-to="7"></li>
+                <li data-target="#carouselId" data-slide-to="8"></li>
+            </ol>
+            <div class="carousel-inner config-carousel" role="listbox"> 
+                <div class="carousel-item active"> <!-- 0 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img1.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img2.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img3.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 1 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img4.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img5.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img6.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 2 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img7.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img8.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img9.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 3 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img10.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img11.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img12.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 4 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img13.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img14.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img15.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 5 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img16.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img17.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img18.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 6 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img19.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img20.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img21.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 7 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img22.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img23.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img24.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- 8 -->
+                    <div class="box-carrocel">
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img25.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                        <div class="box-img-carrocel">
+                            <img src="src/imagens/carrocel/img2.jpeg" class="img-carrocel" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- fim do Carosel -->
+    <div class="carrocel-mobile">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+                <li data-target="#carouselId" data-slide-to="3"></li>
+                <li data-target="#carouselId" data-slide-to="4"></li>
+                <li data-target="#carouselId" data-slide-to="5"></li>
+                <li data-target="#carouselId" data-slide-to="6"></li>
+                <li data-target="#carouselId" data-slide-to="7"></li>
+                <li data-target="#carouselId" data-slide-to="8"></li>
+                <li data-target="#carouselId" data-slide-to="9"></li>
+                <li data-target="#carouselId" data-slide-to="10"></li>
+                <li data-target="#carouselId" data-slide-to="11"></li>
+                <li data-target="#carouselId" data-slide-to="12"></li>
+                <li data-target="#carouselId" data-slide-to="13"></li>
+                <li data-target="#carouselId" data-slide-to="14"></li>
+                <li data-target="#carouselId" data-slide-to="15"></li>
+                <li data-target="#carouselId" data-slide-to="16"></li>
+                <li data-target="#carouselId" data-slide-to="17"></li>
+                <li data-target="#carouselId" data-slide-to="18"></li>
+                <li data-target="#carouselId" data-slide-to="19"></li>
+                <li data-target="#carouselId" data-slide-to="20"></li>
+                <li data-target="#carouselId" data-slide-to="21"></li>
+                <li data-target="#carouselId" data-slide-to="22"></li>
+                <li data-target="#carouselId" data-slide-to="23"></li>
+                <li data-target="#carouselId" data-slide-to="24"></li>
+                <li data-target="#carouselId" data-slide-to="25"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="box-img">
+                        <img src="src/imagens/carrocel/img1.jpeg" class="img-carrocel"alt="Procar Brasil">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img2.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img3.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img4.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img5.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img6.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img7.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img8.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img9.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img10.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img11.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img12.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img13.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img14.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img15.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img16.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img17.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img18.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img19.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img20.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img21.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img22.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img23.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img24.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/carrocel/img25.jpeg" class="img-carrocel"alt="Procar Brasil">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Fim da #proca-Social -->
+    <section id="aplicativo">
+        <div class="aplicativo-fundo">
+            <img class="mobile-apaga" src="./src/imagens/smartphonebackground.jpg" alt="Procar Brasil Aplicativo">        
+        <div class="aplicativo-container">
+            <div class="app-parte-1"> 
+                <div class="aplicativo-bloco-1">
+                    <p>Baixe <span class="app-txt-1">agora</span> <img src="./src/imagens/mao-cel.png" alt="">
+                         <br> o nosso <span class="app-txt-1">aplicativo</span> </p>
+                </div>
+                <div class="aplicativo-bloco-2">
+                    <p>Tudo que você precisa na <br> palma da mão.</p>
+                </div>
+                <div class="app-btn">
+                    <div class="app-btn-ios">
+                        <img class="botao-ios" src="./src/imagens/Applestorebotao_app.png" id="botao-ios" onclick="botao_ios()" alt="App Procar Ios">
+                    </div>
+                    <div class="app-btn-android">
+                        <img class="botao-android" src="./src/imagens/googleplaybotao_app.png" id="botao-android" onclick="botao_android()" alt="App Procar Android">
+                    </div>
+                </div>
+                <div class="aplicativo-celula">
+
+                </div>
+            </div>
+            <div class="app-parte-2 mobile-apaga">
+                <img class="mobile-apaga" src="./src/imagens/Smartphone_app.png" alt="Aplicativo Procar">
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!-- Fim  #plano -->
+    <footer>
+        <div class="rodape">
+            <div class="col-rodape mobile-apaga">
+                <div class="rodape-logo mobile-apaga"><img src="./src/imagens/logo-procar-png.png" alt=""></div>
+            </div>
+            <div class="col-rodape a-esqueda">
+                <div class="col-rodape-conteudo">
+                    <label for="">Mapa do Site</label>
+                <ul class="list-group">
+                    <li class="list-item">INÍCIO</li>
+                    <li class="item-list dropdown cursor-link"> 
+                        <div class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FILIAIS</div>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item texto-brc" href="./arapiraca.html">ARAPIRACA</a>
+                                <!-- <a class="dropdown-item texto-brc" href="./pernambuco.html">PERNAMBUCO</a> -->
+                                <!-- <a class="dropdown-item texto-brc" href="./bahia.html">BAHIA</a> -->
+                                <a class="dropdown-item texto-brc" href="./sergipe.html">SERGIPE</a>
+                                <a class="dropdown-item texto-brc" href="#">RIO GRANDE DO NORTE</a>
+                                <a class="dropdown-item texto-brc" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                <a class="dropdown-item texto-brc" href="recife.html">RECIFE</a>
+                        </div>
+                    </li>
+                    <li class="item-list">VANTAGENS</li>
+                    <li class="item-list">APLICATIVO</li>
+                    <li class="item-list">2º VIA DE BOLETO</li>
+                    <li class="item-list dropdown cursor-link"> 
+                        <div class="dropdown-toggle area-colaborador btn-colaborador" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ÁREA DO COLABORADOR</div>
+                            <div class="dropdown-menu texto-brc" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item texto-brc" href="https://webmail1.hostinger.com.br/" target="_blank">EMAIL</a>
+                            <a class="dropdown-item texto-brc" href="https://eris.hinova.com.br/sga/sgav4_procar_do_brasil/v5/login.php" target="_blank">SGA</a>
+                            <a class="dropdown-item texto-brc" href="https://procardobrasil.com.br/assistencia24hr/" target="_blank">ASSISTÊNCIA</a>
+                            <a class="dropdown-item texto-brc" href="http://plataformaprocar.com.br:8082/" target="_blank">MONITORAMENTO</a>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-rodape a-esqueda text-center">
+                <div class="col-rodape-conteudo a-esqueda">
+                    <label> Rede Sociais</label>
+                <div class="rodape-redesocial a-esqueda">
+                    <a href="https://www.facebook.com/procardobrasil/">
+                        <img src="./src/imagens/footer-facebook.png" alt="Facebook Procar Brasil">
+                    </a>
+                    <a href="https://www.instagram.com/procardobrasil/">
+                        <img src="./src/imagens/footer-Instagram.png" alt="Instagram Procar Brasil">
+                    </a>
+                </div>    
+            </div>
+            </div>
+            <div class="col-rodape a-esqueda">
+                <div class="col-rodape-conteudo">
+                    <div class="rodape-localizacao">
+                        <label>Encontre-nos</label>
+                        <p>R. Comendador Palmeira,<br> Nº 507 - Farol, Maceió - AL, <br> 57051-150</p>
+                    </div>
+                    <div class="rodape-mapa" href="#">
+                        <!-- <img src="./src/imagens/footer-maps.png" alt="Mapa da Procar Brasil"> -->
+                        <a href="#">
+                            <button><img src="./src/imagens/footer-maps.png" alt="Mapa da Procar Brasil">
+                                Encontre no Maps</button>
+                        </a>
+                    </div>
+                    <!-- <img src="./src/imagens/footer-maps.png" alt="Mapa da Procar Brasil"> -->
+                    <!-- <div class="rodape-mapa-waze" href="#">
+                        <a href="#">
+                            <button><img src="./src/imagens/footer-maps.png" alt="Mapa da Procar Brasil">
+                                Encontre no Maps</button>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button onclick="backToTop()" id="back-to-top">
+        <img src="./src/imagens/Seta.png" alt="Início Procar Brasil">
+    </button>
+    <div class="botao-whats">
+        <form action="informe.php">
+            <button onclick="whats()" type="submit" id="btn-whats">
+                <img src="./src/imagens/whatsapp.png" alt="Início Procar Brasil">
+            </button>
+        </form>
+    </div>
+    <div id="copyright">
+        <div class="copyright-conteudo">
+            <script>
+                document.write('&copy;' );
+                document.write(' 2021 - ');
+                document.write(new Date().getFullYear());
+                document.write(' www.procardobrasil.com.br - Todos os direitos reservados.');
+              </script>
+          </div>
+    </div>
+    <!-- Modal -->
+    <!-- Modal -->
+<div class="modal fade" id="modal_popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div> -->
+        <div class="modal-body">
+            <div class="modal-conteudo">
+                <div class="bloco-modal-1">
+                    <img src="./src/imagens/cashback.png" alt="">
+                </div>
+                <div class="bloco-modal-2">
+                    <div class="btn-fechar">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                      <div class="txt-modal-1">
+                        <p>Indique um amigo e
+                            ganhe dinheiro de volta</p>
+                      </div>
+                      <div class="txt-modal-2">
+                        <p>Confira nossa mais nova novidade, 
+                            <strong>indicando um amigo</strong> parte do valor da
+                             adesão dele <strong>volta para você</strong>.</p>
+                      </div>
+                      <div class="modal-botao">
+                          <a href="https://procardobrasil.com.br/cashback"><input type="button" class="btn-modal" value="Quero indicar"></a>
+                          
+                      </div>
+                
+                </div>
+            </div>
+               
+          <!-- <div class="modal-rodape">
+            <button type="button" class="btn btn-secondary btn-form" data-dismiss="modal">Preencha o formulário </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " 
+    crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+
+    <script src="./src/scroll.js "></script>
+    <script src="./src/index.js "></script>
+    <script src="./src/js/Botoes.js"></script>
+    <script src="./src/js/barrasocial.js"></script>
+    <script src="./src/js/form_cotacao.js"></script>
+</body>
+
+</html>

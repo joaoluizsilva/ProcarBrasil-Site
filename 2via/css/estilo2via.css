@@ -1,0 +1,44 @@
+.bgcolor {
+	background-color: #015641
+}
+.logo-procar{
+    background-color: #215b3c;
+}
+.navbar{
+margin-top:0px;
+padding-top: 0px;
+}
+.container-2via {
+    width: 100%;
+    height: 75px;
+    margin-top: 6rem;
+    display:flex;
+    justify-content: center;
+}
+.btn-2via {
+    margin-top: 2rem;
+    font-size: 20px !important;
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+}
+.botoes-app{
+    width: 100%;
+    height: 120px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.botao-div{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botoes-app img {
+    width: 300px;
+    height: auto;
+}

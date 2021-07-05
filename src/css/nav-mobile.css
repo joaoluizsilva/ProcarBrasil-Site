@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px){
+    #nav-mobile {
+        /* margin-top: 2rem !important; */
+    }
+}
+
+@media only screen and (min-width: 400px){
+    header {
+        height: 31px !important;
+      }
+    #banner{
+        margin-top: auto !important;
+    }
+}
+
+.bg-nav-mobile {
+    background-color: #215b3c;
+}
+.navbar-brand{
+    margin-right: 0px;
+}
+.navbar-brand img{
+    width: 70px;
+    height: auto;
+}
+.navbar {
+    justify-content: center;
+    padding-top: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.1rem;
+}
+
+.navbar-toggler-icon, .navbar-toggler{
+    /* color:#ffffff;
+    background-color: #ffffff; */
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("../imagens/MENU.png");
+}
+.btn {
+    font-size: 12px !important;
+}
+.btn-reboque{
+    margin-left: -15px;
+}
+.btn-2via{
+
+}
+.btn-reboque , .btn-2via, btn{
+    /* border: solid 1px #ffffff !important; */
+    padding: 2px;
+    margin: 0px;
+
+}
+
+.colores{
+    background-color: #215b3c;
+    background-color: #eec630;
+    background-color: #00613d;
+    color:#124228;
+}
