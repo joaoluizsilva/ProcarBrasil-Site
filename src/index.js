@@ -23,7 +23,7 @@ function enviar(){
     }
     console.log('ola');
 
-    //%0D -> quebra de linha e %20 -> espaço
+    //%0A -> quebra de linha e %20 -> espaço
     
     // window.open(
     //     "https://wa.me/5582991929154?text="+"SOLICITAÇÃO DE ORÇAMENTO "+'%0D'
@@ -88,20 +88,18 @@ function validar(){
         else{
         console.log('entrou no else')
         window.open(
-            "https://wa.me/5582996271108?text="+"SOLICITAÇÃO DE ORÇAMENTO "+'%0D'
+            "https://wa.me/5582993596033?text="+"SOLICITAÇÃO DE ORÇAMENTO "+'%0A'
             +"Nome: "+nome+'%20'+"Email: "+email+
-            '%0D'+"Telefone: "+telefone+'%20'+"Estado:"+estado+
-            '%0D'+'%20'+"Veículo: "+veiuculo+'%20'+"/Placa: "+placa+'%20'+"/Ano"+ano+
-            '%0D'+"Possui habilitação? "+possuiHabilitacao+'%20'+
+            '%0A'+"Telefone: "+'%20'+ telefone+'%20'+"Estado:"+estado+
+            '%0A'+'%20'+"Veículo: "+'%20'+veiuculo+'%20'+"/Placa: "+placa+'%20'+"/Ano"+ano+
+            '%0A'+"Possui habilitação? "+possuiHabilitacao+'%20'+
             "Motorista de App ou taxi? "+motoristaApp
             ) 
     }
 }
-
+//%0A -> quebra de linha e %20 -> espaço
 
 // Script para Carregaro o Modal assim que carregar
 $(document).ready(function() {
     $('#modal_popup').modal('show');
 })
-
-
