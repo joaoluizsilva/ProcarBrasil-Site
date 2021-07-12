@@ -49,17 +49,13 @@ function validar2(){
         return;
     }else{
         window.open(
-                "https://wa.me/5582996271108?text="+"*SOLICITAÇÃO DE ORÇAMENTO*"+ '%0D'+'%0A'+'%0A'+
-                "Nome: "+nome+ '%0D'+ '%0A'+'%0A'+
-                "Email: "+email+ '%0D'+'%0A'+'%0A'+
-                "Telefone: "+telefone+ '%0D'+ '%0A'+'%0A'+
-                "Estado: "+estado+ '%0D'+ '%0A'+'%0A'+
-                "Veículo: "+veiuculo+ '%0D'+ '%0A'+'%0A'+
-                "Ano: "+ano+'%0D'+ '%0A'+'%0A'+
-                "Placa: "+placa+'%0D'+ '%0A'+'%0A'+
-                "Possui habilitação? *->* "+'_'+possuiHabilitacao+'_'+'%0D'+ '%0A'+'%0A'+
-                "Motorista de App ou taxi? *->* "+motoristaApp+'%0D'
-                )
+            "https://wa.me/5582996271108?text="+"SOLICITAÇÃO DE ORÇAMENTO "+'%0A'
+            +"Nome: "+nome+'%20'+"Email: "+email+
+            '%0A'+"Telefone: "+'%20'+ telefone+'%20'+"Estado:"+estado+
+            '%0A'+'%20'+"Veículo: "+'%20'+veiuculo+'%20'+"/Placa: "+placa+'%20'+"/Ano"+ano+
+            '%0A'+"Possui habilitação? "+possuiHabilitacao+'%20'+
+            "Motorista de App ou taxi? "+motoristaApp
+            )
     }
 
     
