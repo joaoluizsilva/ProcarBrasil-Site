@@ -70,7 +70,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="./arapiraca.html">ARAPIRACA</a>
                                 <a class="dropdown-item" href="./pernambuco.html">PERNAMBUCO</a>
-                                <a class="dropdown-item" href="./bahia.html">BAHIA</a>
+                                <!-- <a class="dropdown-item" href="./bahia.html">BAHIA</a> -->
                                 <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item" href="#">RIO GRANDE DO NORTE</a>
                                 <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
@@ -112,7 +112,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="./arapiraca.html">ARAPIRACA</a>
                                 <a class="dropdown-item" href="./pernambuco.html">PERNAMBUCO</a>
-                                <a class="dropdown-item" href="./bahia.html">BAHIA</a>
+                                <!-- <a class="dropdown-item" href="./bahia.html">BAHIA</a> -->
                                 <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item" href="#">RIO GRANDE DO NORTE</a>
                                 <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
@@ -173,7 +173,7 @@
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item texto-brc" href="./arapiraca.html">ARAPIRACA</a>
                                 <a class="dropdown-item texto-brc" href="./pernambuco.html">PERNAMBUCO</a>
-                                <a class="dropdown-item texto-brc" href="./bahia.html">BAHIA</a>
+                                <!-- <a class="dropdown-item texto-brc" href="./bahia.html">BAHIA</a> -->
                                 <a class="dropdown-item texto-brc" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item texto-brc" href="#">RIO GRANDE DO NORTE</a>
                                 <a class="dropdown-item texto-brc" href="./belo-horizonte.html">BELO HORIZONTE</a>
