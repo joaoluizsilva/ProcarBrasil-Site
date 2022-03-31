@@ -73,7 +73,7 @@
                                 <!-- <a class="dropdown-item" href="./bahia.html">BAHIA</a> -->
                                 <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item" href="#">RIO GRANDE DO NORTE</a>
-                                <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                <!-- <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a> -->
                             </div>
                         </li>
                          <!-- <li class="nav-link hover-linha"><a href="#beneficios"> VANTAGENS</a></li>
@@ -115,7 +115,7 @@
                                 <!-- <a class="dropdown-item" href="./bahia.html">BAHIA</a> -->
                                 <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item" href="#">RIO GRANDE DO NORTE</a>
-                                <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                <!-- <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a> -->
                             </div>
                         </li>
                   </ul>
@@ -176,7 +176,7 @@
                                 <!-- <a class="dropdown-item texto-brc" href="./bahia.html">BAHIA</a> -->
                                 <a class="dropdown-item texto-brc" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item texto-brc" href="#">RIO GRANDE DO NORTE</a>
-                                <a class="dropdown-item texto-brc" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                <!-- <a class="dropdown-item texto-brc" href="./belo-horizonte.html">BELO HORIZONTE</a> -->
                         </div>
                     </li>
                     <li class="item-list">VANTAGENS</li>

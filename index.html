@@ -64,6 +64,36 @@
 </head>
 
 <body>
+    <!-- Messenger Plugin de bate-papo Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de bate-papo code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "552962295069982");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="information">
         <div class="info">
             <span>SOCORRO 24H</span>
@@ -111,7 +141,7 @@
                                        <a class="dropdown-item" href="./bahia.html">BAHIA</a>
                                        <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
                                        <a class="dropdown-item" href="riograndedonorte.html">RIO GRANDE DO NORTE</a>
-                                       <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                       <!-- <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a> -->
                                        <a class="dropdown-item" href="recife.html">RECIFE</a>
                                    </div>
                                </li>
@@ -160,7 +190,7 @@
                                 <a class="dropdown-item" href="./bahia.html">BAHIA</a>
                                 <a class="dropdown-item" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item" href="riograndedonorte.html">RIO GRANDE DO NORTE</a>
-                                <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                <!-- <a class="dropdown-item" href="./belo-horizonte.html">BELO HORIZONTE</a> -->
                             </div>
                         </li>
                          <li class="nav-item">VANTAGENS</li>
@@ -701,7 +731,7 @@
                                 <a class="dropdown-item texto-brc" href="./bahia.html">BAHIA</a>
                                 <a class="dropdown-item texto-brc" href="./sergipe.html">SERGIPE</a>
                                 <a class="dropdown-item texto-brc" href="riograndedonorte.html">RIO GRANDE DO NORTE</a>
-                                <a class="dropdown-item texto-brc" href="./belo-horizonte.html">BELO HORIZONTE</a>
+                                <!-- <a class="dropdown-item texto-brc" href="./belo-horizonte.html">BELO HORIZONTE</a> -->
                                 <a class="dropdown-item texto-brc" href="recife.html">RECIFE</a>
                         </div>
                     </li>
