@@ -44,5 +44,5 @@ function scrollWhats() {
 }
 
 function whats(){
-    window.open('https://wa.me/5582996271108')
+    window.open('https://wa.me/5582999030038')
 }

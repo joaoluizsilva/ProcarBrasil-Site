@@ -1,5 +1,5 @@
 <?php 
-date_default_timezone_set('America/');
+date_default_timezone_set('America/Maceio');
 $data = date("d/m/Y H:i" );
 
 $nome = $_POST ['nome'];

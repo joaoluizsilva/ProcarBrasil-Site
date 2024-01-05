@@ -1,5 +1,5 @@
 <?php 
-date_default_timezone_set('America/Sao_Paulo');
+date_default_timezone_set('America/Maceio');
 $data = date("d/m/Y H:i" );
 
 
@@ -48,9 +48,9 @@ $habilitacao = $_POST ['habilitacao'];
  //====================================================
  //Enviando o email 
  //==================================================== 
- if ( (!isset($telefone) || is_) ){
+ if ( (!isset($telefone)) ){
     if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
-        echo "</b>nviado com sucesso!</b>";
+        echo "</b>Enviado com sucesso!</b>";
        ?>    
        <script> 
        setTimeout(function() { 

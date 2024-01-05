@@ -49,7 +49,7 @@ function validar2(){
         return;
     }else{
         window.open(
-            "https://wa.me/5582996271108?text="+"SOLICITAÇÃO DE ORÇAMENTO "+'%0A'
+            "https://wa.me/5582999030038?text="+"SOLICITAÇÃO DE ORÇAMENTO "+'%0A'
             +"Nome: "+nome+'%20'+"Email: "+email+
             '%0A'+"Telefone: "+'%20'+ telefone+'%20'+"Estado:"+estado+
             '%0A'+'%20'+"Veículo: "+'%20'+veiuculo+'%20'+"/Placa: "+placa+'%20'+"/Ano"+ano+
